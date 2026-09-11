@@ -1,17 +1,47 @@
-# first_screen_flutter
+## Login Screen Flutter App
 
-A new Flutter project.
+This project contains professionally designed Login and Signup screens developed using Flutter and Dart in Visual Studio Code.
 
-## Getting Started
+## Project Details
 
-This project is a starting point for a Flutter application.
+- **Framework:** Flutter
+- **Language:** Dart
+- **Editor:** Visual Studio Code
+- **Completed:** September 11, 2026
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Responsive Login screen with a branded illustration header.
+- Signup screen with matching visual styling.
+- Email validation with required format rules.
+- Phone number validation.
+- Password validation from 6 to 15 characters.
+- Password visibility toggle.
+- Forgot Password dialog with email validation and reset confirmation.
+- Active Google, Facebook, and Apple social-login buttons.
+- Navigation between Login and Signup screens.
+- Scrollable layouts designed to avoid bottom overflow on smaller screens.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Run the Project
+
+Install Flutter, connect a device or start an emulator, then run:
+
+```bash
+flutter pub get
+flutter run
+```
+
+## Validation
+
+Run static analysis with:
+
+```bash
+flutter analyze
+```
+
+## Project Structure
+
+- `lib/main.dart` - Application entry point.
+- `lib/screens/login_screen.dart` - Login screen and actions.
+- `lib/screens/signup_screen.dart` - Signup screen and validation.
+- `assets/images/` - Screen illustrations.
