@@ -34,6 +34,8 @@ Screenshots are stored in [`screenshots/`](screenshots/).
 | --- | --- | --- |
 | ![Home screen](screenshots/home.png) | ![Login screen](screenshots/login.png) | ![Signup screen](screenshots/signup.png) |
 
+The iPhone 16 simulator capture is also available as [`home-ios.png`](screenshots/home-ios.png).
+
 ## Download APK
 
 Download the latest checked-in Android build: [Login_Screen.apk](releases/Login_Screen.apk).
