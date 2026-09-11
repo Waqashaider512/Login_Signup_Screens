@@ -30,11 +30,9 @@ Home -> Login -> Signup
 
 Screenshots are stored in [`screenshots/`](screenshots/).
 
-| Home | Login | Signup |
-| --- | --- | --- |
-| ![Home screen](screenshots/home.png) | ![Login screen](screenshots/login.png) | ![Signup screen](screenshots/signup.png) |
+The public preview below was captured from the iPhone 16 simulator:
 
-The iPhone 16 simulator capture is also available as [`home-ios.png`](screenshots/home-ios.png).
+![Home screen on iPhone 16](screenshots/home-ios.png)
 
 ## Download APK
 
