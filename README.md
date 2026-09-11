@@ -1,47 +1,84 @@
-## Login Screen Flutter App
+# Malik Waqas Haider | Flutter Portfolio App
 
-This project contains professionally designed Login and Signup screens developed using Flutter and Dart in Visual Studio Code.
+A polished Flutter portfolio and authentication experience for **Malik Waqas Haider**, a Software Engineer and Flutter Mobile Application Developer from Pakistan.
 
-## Project Details
+The app opens with a personal portfolio home screen, then guides visitors through Login and Signup screens with clear forward and backward navigation.
 
-- **Framework:** Flutter
-- **Language:** Dart
-- **Editor:** Visual Studio Code
-- **Completed:** September 11, 2026
+## Highlights
 
-## Features
+- Professional portfolio-style Home screen.
+- Circular, face-focused profile image from `assets/images/Waqas.png`.
+- Grid and list views for portfolio content.
+- Project showcase for Pocket Ledger, Sky Pulse, and Job Tracker.
+- Email contact action for project enquiries.
+- Responsive Login and Signup experiences.
+- Form validation for email, phone, and password fields.
+- Password visibility controls and forgot-password flow.
+- Social sign-in action buttons.
+- Layouts designed for smaller screens without bottom overflow.
 
-- Responsive Login screen with a branded illustration header.
-- Signup screen with matching visual styling.
-- Email validation with required format rules.
-- Phone number validation.
-- Password validation from 6 to 15 characters.
-- Password visibility toggle.
-- Forgot Password dialog with email validation and reset confirmation.
-- Active Google, Facebook, and Apple social-login buttons.
-- Navigation between Login and Signup screens.
-- Scrollable layouts designed to avoid bottom overflow on smaller screens.
+## App Flow
 
-## Run the Project
+```text
+Home -> Login -> Signup
+	^       ^       |
+	|       +-------+
+	+---------------+
+```
 
-Install Flutter, connect a device or start an emulator, then run:
+## Screenshots
+
+Screenshots are stored in [`screenshots/`](screenshots/).
+
+| Home | Login | Signup |
+| --- | --- | --- |
+| ![Home screen](screenshots/home.png) | ![Login screen](screenshots/login.png) | ![Signup screen](screenshots/signup.png) |
+
+## Download APK
+
+Download the latest checked-in Android build: [Login_Screen.apk](releases/Login_Screen.apk).
+
+Build a fresh release APK locally with:
+
+```bash
+flutter build apk --release
+```
+
+The generated file is available at:
+
+```text
+build/app/outputs/flutter-apk/app-release.apk
+```
+
+The distributable APK is also kept in `releases/Login_Screen.apk` for quick testing.
+
+## Run Locally
+
+Requirements: Flutter SDK 3.13.2 or newer and a connected device or emulator.
 
 ```bash
 flutter pub get
 flutter run
 ```
 
-## Validation
-
-Run static analysis with:
+## Verify
 
 ```bash
 flutter analyze
+flutter test
 ```
 
 ## Project Structure
 
-- `lib/main.dart` - Application entry point.
-- `lib/screens/login_screen.dart` - Login screen and actions.
-- `lib/screens/signup_screen.dart` - Signup screen and validation.
-- `assets/images/` - Screen illustrations.
+- `lib/main.dart` - Application entry point and theme.
+- `lib/screens/home_screen.dart` - Portfolio Home screen, project showcase, and contact action.
+- `lib/screens/login_screen.dart` - Login form, reset-password dialog, and social actions.
+- `lib/screens/signup_screen.dart` - Signup form and validation.
+- `assets/images/` - Profile and authentication artwork.
+- `test/widget_test.dart` - Screen-flow widget coverage.
+
+## Built With
+
+- Flutter and Dart
+- Material 3 widgets
+- `url_launcher` for email contact actions
